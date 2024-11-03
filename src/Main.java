@@ -14,7 +14,7 @@ public class Main {
         Map<String, Auto> autoByNumber = new HashMap<>();
         Map<String, List<Auto>> autoByBrand = new HashMap<>();
 
-       // Auto auto1 = new Auto("ABC123","Toyota","Red");
+
         autoByNumber.put("ASD123", new Auto("ASD123","BMW","red"));
         autoByNumber.put("ASJ456", new Auto("ASJ456","BMW","metalic"));
         autoByNumber.put("OKI789", new Auto("OKI789","Toyota","black"));
